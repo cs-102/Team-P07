@@ -1,0 +1,378 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Responsive Restaurant website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- -------header start----------   -->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#"><img src="./imgs/logo.png" alt="Restaurant logo"></a>
+                </div>
+                <nav>
+                    <div class="btn">
+                        <i class="fas fa-times close-btn"></i>
+                    </div>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menus</a></li>
+                    <li><a href="#">Reservation</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </nav>
+                <div class="btn">
+                    <i class="fas fa-bars menu-btn"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- -------header close----------   -->
+
+    <!-- -------showcase start----------   -->
+    <main id="showcase">
+        <div class="container">
+            <div class="content">
+                <img src="./imgs/logo.png" alt="">
+                <h2>SURPRISE YOUR PLATE</h2>
+                <h3>Fine Food + Drinks</h3>
+
+            </div>
+        </div>
+    </main>
+    <!-- -------showcase close----------   -->
+
+
+    <!-- ----------Special offer start---------- -->
+    <aside id="sp_offer">
+        <div class="container">
+            <div class="sp_content">
+                <div class="left_side_content">
+                    <div class="headings">
+                        <h3>From the Menu</h3>
+                        <h2>SPECIAL OFFERS</h2>
+                    </div>
+                    <div class="imgs_content">
+                        <div class="imgs">
+                            <img src="./imgs/02.png" alt="" />
+                            <div class="content_for_img">
+                                <h4>Dosa</h4>
+                                <p>
+                                    A thin, Delicious savoury crepe South Indian cuisine made from a fermented batter of
+                                    ground white gram and rice.
+                                </p>
+                                <p>
+                                    Served hot, with Chutney and Sambar.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p>199Rs</p>
+                        </div>
+                    </div>
+                    <div class="imgs_content">
+                        <div class="imgs">
+                            <img src="./imgs/03.png" alt="" />
+                            <div class="content_for_img">
+                                <h4>Idli</h4>
+                                <p>
+                                    A soft and fluffy steamed cake made with fermented rice and lentil batter. Easily
+                                    digestible Also from South India.
+                                </p>
+                                <p>
+                                    One of the healthiest protein packed Breakfast.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p>149Rs</p>
+                        </div>
+                    </div>
+                    <div class="imgs_content">
+                        <div class="imgs">
+                            <img src="./imgs/04.png" alt="" />
+                            <div class="content_for_img">
+                                <h4>Thali</h4>
+                                <p>
+                                    Our Restaurant Special, Consisting of three Delicous meals, 4 Rotis, curd and a
+                                    Sweet dish.
+                                </p>
+                                <p>
+                                    An energy packed meal.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p>249Rs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_side_content">
+                    <div class="img_right_side">
+                        <img src="./imgs/right_sidebar_img.jpg" alt="" />
+                        <div class="over_img">
+                            <h2>Menu</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!-- ----------Special offer close---------- -->
+
+    <!-- ----------Reservation Now start---------- -->
+    <div class="reservation_tbl">
+        <div class="container">
+            <div class="form_data">
+                <h3 class="normal_heading">Your Table</h3>
+                <h2 class="main_heading">Reservation Now..</h2>
+                <form action="#">
+                    <input type="text" placeholder="Name" />
+                    <input type="text" placeholder="Contact Number" />
+                    <input type="email" placeholder="Email Address" />
+                    <input type="text" placeholder="Number of Persons" />
+                    <input type="date" placeholder="Book date" />
+                    <input type="text" placeholder="Your Time" />
+                    <textarea name="" id="" cols="10" rows="10" placeholder="Message Request"></textarea>
+                    <button type="button">Book Now!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------Reservation Now close---------- -->
+
+
+    <!-- ----------Deal Today start---------- -->
+    <div id="deal_today">
+        <div class="container swiper mySwiper">
+            <h3 class="normal_heading-1">Deal Today</h3>
+            <h2 class="main_heading-1">TODAY'S SPECIAL </h2>
+            <div class="card_content swiper-wrapper">
+                <div class="cards swiper-slide">
+                    <img src="./imgs/sp_dish_1.jpg" alt="">
+                    <h4>White Sauce Pasta</h4>
+                    <p> White sauce pasta with veggies is one of our Customer's favorite dish. Spicy and so good!.</p>
+                    <p class="price">Only 149Rs</p>
+                </div>
+                <div class="cards swiper-slide">
+                    <img src="./imgs/sp_dish_2.jpg" alt="">
+                    <h4>Veg Momos</h4>
+                    <p>A flour based dumplings steamed with cabbage, carrot and spring onion stuffing. Served with a red
+                        coloured spicy and watery momos chutney</p>
+                    <p class="price">Only 149Rs</p>
+                </div>
+                <div class="cards swiper-slide">
+                    <img src="./imgs/sp_dish_3.jpg" alt="">
+                    <h4>Pizza</h4>
+                    <p>Food Lover's special Pizza. Just come and enjoy the great and mouth-watering taste of 8 veggies
+                        and cheese together. </p>
+                    <p class="price">Only 299Rs</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+
+    <!-- ----------Deal Today close---------- -->
+
+    <!-- ----------Food Lover start---------- -->
+    <section id="food_lover">
+        <div class="container">
+            <h3 class="normal_heading-1">Food Lover</h3>
+            <h2 class="main_heading-1">RESTAURANT MENU</h2>
+            <div class="food_lover_container">
+                <div class="btn_container">
+                    <button type="button" class="btn-cat active_btn" data-id="all">All Dishes</button>
+                    <button type="button" class="btn-cat" data-id="Dinner">Dinner</button>
+                    <button type="button" class="btn-cat" data-id="Lunch">Lunch</button>
+                    <button type="button" class="btn-cat" data-id="Drinks">Drinks</button>
+                    <button type="button" class="btn-cat" data-id="Starters">Starters</button>
+                </div>
+                <div class="menus_items_container">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------Food Lover close---------- -->
+
+    <!--------------Customer feedback start--------------->
+    <section id="customer_feedback">
+        <div class="container swiper mySwiper">
+            <h3 class="normal_heading-1">Food Lover</h3>
+            <h2 class="main_heading">CUSTOMER FEEDBACK</h2>
+            <div class="customer_cards_container swiper-wrapper">
+                <div class="customer_card swiper-slide">
+                    <img src="./imgs/Ritik.jpeg" alt="">
+                    <p>
+                        "What a delightful dining experience we had at <strong>Food Lover</strong>. There was a 
+                        mouthwatering cuisine and everything was top-notch. 
+                    </p>
+                    <p class="name">Ritik Anuragi</p>
+                </div>
+                <div class="customer_card swiper-slide">
+                    <img src="./imgs/customer_02.jpg" alt="">
+                    <p>
+                        Absolutely blown away by the culinary experience at <strong>Food Lover</strong> from the moment
+                        we walked in, we were greeted warmly and treated like royalty. The ambiance was charming, and
+                        the food? Oh, the food was simply divine!
+                    </p>
+                    <p class="name">Angela green</p>
+                </div>
+                <div class="customer_card swiper-slide">
+                    <img src="./imgs/customer_03.jpg" alt="">
+                    <p>
+                        <strong>Food Lover's</strong> menu offered a fantastic array of options, from classic favorites
+                        to innovative dishes that
+                        pushed the boundaries of flavor. Each dish was a work of art, showcasing the chef's skill and
+                        creativity. And the service? Exceptional!
+                    </p>
+                    <p class="name">Anna Van</p>
+                </div>
+                <div class="customer_card swiper-slide">
+                    <img src="./imgs/Vikas.png" alt="">
+                    <p>
+                        "Had an unforgettable evening at <strong>Food Lover</strong> The atmosphere was cozy and
+                        inviting, perfect for a gathering with friends. The menu boasted a
+                        fantastic selection of dishes, each bursting with flavor and beautifully presented.
+                    </p>
+                    <p class="name">Vikas Kumar</p>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--------------Customer feedback close-------------->
+    <!--------------Upcoming Events Start-------------->
+    <section id="up_coming_events">
+        <div class="container swiper mySwiper">
+            <h3 class="normal_heading-1">Month of March</h3>
+            <h2 class="main_heading-1">UPCOMING EVENTS</h2>
+            <div class="events_cards_container swiper-wrapper">
+                <div class="events_card swiper-slide">
+                    <img src="./imgs/pancake2.jpg" alt="">
+                    <div class="event_content">
+                        <p>
+                            Soon we will be introducing <strong>Food Lover's Berrylicious Pancake</strong>, which will
+                            be served with two diffrent types of berries.
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="events_card swiper-slide">
+                    <img src="./imgs/burger.jpg" alt="">
+                    <div class="event_content">
+                        <p> "An Ultimate Cheese Lover's Stack", Food Lover's <strong>Cheese Bliss Burger</strong>.
+                            will be creating a symphony of rich and gooey goodness with every bite.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="events_card swiper-slide">
+                    <img src="./imgs/Taco.jpg" alt="">
+                    <div class="event_content">
+                        <p> Get ready to spice up your taste buds with our newest addition, the <strong>Fiesta Crunch Taco</strong> 
+                             Bursting with bold flavors and a satisfying crunch. </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="events_card swiper-slide">
+                    <img src="./imgs/Poha.jpg" alt="">
+                    <div class="event_content">
+                        <p> we will be introducing a Desi food item known as <strong>Indori Poha</strong>. It will be special as it could be modified.
+                        The customer will have the option to choose from more than 50 items if they want it in their special Breakfast item or not.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+    </section>
+    <!--------------Upcoming Events close-------------->
+    <!--------------Static Counter Start-------------->
+    <section id="static_counter">
+        <div class="class">
+            <div class="counters">
+                <div class="counter">
+                    <div class="num" data-ceil="291">291</div>
+                    <h2>Best Dishes</h2>
+                </div>
+                <div class="counter">
+                    <div class="num" data-ceil="710">710</div>
+                    <h2>Awards Won</h2>
+                </div>
+                <div class="counter">
+                    <div class="num" data-ceil="163">163</div>
+                    <h2>Our Chefs</h2>
+                </div>
+                <div class="counter">
+                    <div class="num" data-ceil="212">212</div>
+                    <h2>Daily Customers</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------Static Counter Close-------------->
+
+    <!--------------Footer Start-------------->
+    <section id="footer">
+        <div class="container">
+            <div class="footer_container">
+                <div class="about_us">
+                    <h2><img src="imgs/logo.png" alt="" /></h2>
+                    <p>Established in 1980. Serving people since 40 years. Kishlay, Parv, Abhilash, Siva Manoj and
+                        Pranjal laid the foundation of this chain,
+                        Which is now known as Food Lover.
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <div class="opening_hours">
+                    <h2>Opening Hours</h2>
+                    <p class="day">MONDAY: <span>Close</span> </p>
+                    <p class="day">TUE-FRI: <span>10.00AM To 9.00PM</span></p>
+                    <p class="day">SATURDAY: <span>10.00AM To 12.00PM</span></p>
+                    <p class="day">SUNDAY: <span>10.00AM To 12.00PM</span></p>
+                </div>
+
+                <div class="contact_us">
+                    <h2>Contact Us</h2>
+                    <h3>GET IN TOUCH</h3>
+                    <p>+623648219</p>
+                    <p class="add">Add</p>
+                    <p>Academic Building IIT Goa, Near GEC Campus, Farmagudi Residency Ponda, GOA, 403401</p>
+                    <p class="email">Email</p>
+                    <p>order@foodlover.com or sales@expert.com</p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!--------------Footer Close-------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+</body>
+
+</html>
