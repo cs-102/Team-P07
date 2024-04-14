@@ -27,42 +27,12 @@ a{
     text-decoration: none;
 }
 
-
 .container{
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 80px;
+    
 }
-
-.main_heading{
-    font-size: 4rem;
-    font-family: var(--righteous);
-    text-align: center;
-    color: var(--white_color);
-}
-
-.main_heading-1{
-    font-size: 4rem;
-    font-family: var(--righteous);
-    text-align: center;
-    color: #000;
-}
-
-.normal_heading{
-    font-size: 2rem;
-    font-family: var(--righteous);
-    color: var(--white_color);
-    text-align: center;
-}
-
-.normal_heading-1{
-    font-size: 2rem;
-    font-family: var(--righteous);
-    color: var(--primary_color);
-    text-align: center;
-}
-
-
 /* ---------utality classes close------- */
 
 /* -----------header start--------- */
@@ -117,7 +87,6 @@ header{
 .navbar nav li a:hover::after{
     width: 100%;
 }
-
 .btn{
     font-size: 2.2rem;
     color: var(--white_color);
@@ -189,14 +158,13 @@ header{
 }
 
 .headings h2{
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: var(--righteous);
 }
 
-.headings h3{
+.headings h2{
     font-size: 2rem;
     font-family: var(--ubuntu);
-    color: var(--primary_color)
 }
 
 .imgs_content{
@@ -214,8 +182,7 @@ header{
 .imgs img{
     display: block;
     object-fit: cover;
-    width: 20%;
-    border-radius: 10px;
+    /* width: 50%; */
 }
 
 .content_for_img{
@@ -238,7 +205,7 @@ header{
 .imgs_content .price{
     font-size: 3rem;
     font-family: var(--righteous);
-    border: 1px solid #ddd;
+    border: 2px solid #add;
     padding: 1rem;
     border-radius: 50%;
 }
@@ -247,7 +214,7 @@ header{
     width: 100%;
 }
 
-.right_side_content img{
+.right_side_content{
     display: block;
     width: 100%;
     object-fit: cover;
@@ -259,181 +226,12 @@ header{
     width: 100%;
 }
 
-.img_right_side .over_img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 4rem;
-    text-align: center;
-    background: var(--primary_color);
-    color: var(--white_color);
-    border: 60%;
-    border-radius: 50%;
-}
 
-.over_img h2{
-    font-size: 2rem;
-}
 
-.over_img a{
-    color: var(--white_color);
-}
+
+
+
+
+
 /* -----------Special Offer close--------- */
 
-/* -----------Reservation Now start--------- */
-#reservation_tbl{
-    background: url('../imgs/tbl_bg_img.jpg') no-repeat center center/cover;
-    background-attachment: fixed;
-    padding: 6rem 0;
-}
-
-.form_data{
-    border-radius: 20px;
-    background: var(--primary_color);
-    padding: 4rem;
-    width: 100%;
-    color: var(--primary_color);
-}
-
-.form_data form{
-    padding: 4rem 0;
-}
-
-.form_data form input{
-    width: 49.5%;
-    padding: 0.7rem 0.4rem;
-    margin-bottom: 1rem;
-    border: none;
-    border-radius: 6px;
-}
-
-.form_data form textarea{
-    width: 100%;
-    padding: 1rem 0.4rem;
-}
-
-.form_data form button{
-    display: inline-block;
-    width: 100%;
-    border: none;
-    padding: 0.9rem 0;
-    margin-top: 2rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.5s ease;
-}
-
-.form_data form button:hover{
-    background-color: #ccc;
-}
-
-
-/* .form_data h3{
-    font-size: 1rem;
-    font-family: var(--righteous);
-    color: var(--white_color);
-} */
-/* -----------Reservation Now close--------- */
-
-/* -----------Deal today start--------- */
-#deal_today{
-    padding: 10rem 0;
-    /* background: url('../imgs/sp_dish_bg.jpg') no-repeat; */
-    background-image: url('../imgs/sp_dish_bg.jpg') no-repeat;
-}
-
-#deal_today .card_content{
-    text-align: center;
-    font-size: 1.2rem;
-}
-
-#deal_today .cards{
-    margin: 6rem 0;
-}
-
-#deal_today .card_content h4{
-    font-family: var(--ubuntu);
-    font-size: 2rem;
-}
-
-#deal_today .card_content .price{
-    font-size: 2rem;
-    color: var(--primary_color);
-    font-weight: 600;
-}
-.cards img{
-    width: 30%;
-    border-radius: 7px;
-}
-
-/* -----------Deal today close--------- */
-
-/* -----------Food Lover start--------- */
-#food_lover{
-    padding: 10rem 0;
-    background: #f4f4f4;
-}
-
-.food_lover_container{
-    margin: 3rem 0;
-    text-align: center;
-}
-
-.btn-container{
-    margin: 4rem 0;
-    width: 100%;
-    display: inline-block;
-    color: #000;
-    text-align: center;
-}
-
-.btn-cat{
-    padding: 0.7rem 1.2rem;
-    cursor: pointer;
-    margin: 0 2rem;
-    border: 1px solid #ddd;
-    font-size: 1.4rem;
-    border-radius: 5px;
-    transition: all 0.5s ease-out;
-}
-
-.btn-cat:hover,.active_btn{
-    background: var(--primary_color);
-    color: var(--white_color);
-
-}
-
-.menus_item_container{
-    display: flex;
-    flex-direction: column;
-    /* grid-template-columns: repeat(3,1fr);
-    grid-gap: 3rem; */
-}
-
-.img_cards{
-    padding: 1rem;
-    border: 1px solid #ddd;
-    box-shadow: var(--box_shadow);
-}
-
-.img_cards img{
-    display: block;
-    width: 20%;
-    object-fit: cover;
-    margin-bottom: 2rem;
-    cursor: pointer;
-}
-
-.img_cards p{
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    font-family: var(--ubuntu);
-}
-
-.img_cards .price{
-    color: var(--primary_color);
-    font-size: 1.8rem;
-}
-/* -----------Food Lover close--------- */

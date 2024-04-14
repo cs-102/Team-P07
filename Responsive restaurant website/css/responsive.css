@@ -14,9 +14,6 @@
     padding: 2rem 0;
   }
 
-  .form_data{
-    width: 100%;
-  }
 }
 
 
@@ -37,7 +34,7 @@
   .navbar nav{
     flex-direction: column;
     position: fixed;
-    min-width: 100%;
+    min-width: 0%;
     min-height: 60vh;
     top: 0;
     right: 100%;
@@ -47,9 +44,9 @@
     transition: all 0.5s ease-in-out;
   }
   
-  nav.active{
+   nav.active{
     right: 0%;
-    transition: all 0.5s ease-in;
+    transition: all 1s ease-in;
    }
 
   .navbar nav li{
@@ -63,9 +60,9 @@
   }
 
   .close-btn{
-    position: absolute;
+    position: right;
     top: 0;
-    left: 90%;
+    right: 90%;
     margin: 25px;  
   } 
 }
@@ -73,15 +70,9 @@
 /* 768 */
 @media(max-width: 768px){
   .sp_content{
+    
+    
     grid-template-columns: repeat(1,1fr);
-  }
-
-  .form_data{
-    width: 100%;
-  }
-
-  .form_data form input{
-    width: 100%;
   }
 }
 
